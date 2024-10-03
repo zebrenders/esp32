@@ -64,8 +64,7 @@ button {
     background-color: #7edd8a;
 }
 .connectButton:active {
-    background-color: #bcdbc0;
-    border-radius: 0px;
+    background-color: #7edd8a;
 }
 
 .disconnectButton {
@@ -76,8 +75,8 @@ button {
     background-color: #f07e76;
 }
 .disconnectButton:active {
-    background-color: #e7a7a3;
-    border-radius: 0px;
+    background-color: #f07e76;
+    
 }
 
 .gray-label {
