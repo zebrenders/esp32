@@ -29,12 +29,13 @@ body {
     display: grid;
     grid-gap: 2rem;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    box-shadow: 0px 10px 5px #606060;
+    box-shadow: 0px 10px 1px #606060;
 }
 
 .card {
-    background-color: #dedede;
-    border-radius: 4px;
+    background-color: #fffff0;
+
+    border: 2px solid #606060;
     padding-bottom: 20px;
 }
 
@@ -45,7 +46,7 @@ button {
     border: none;
     cursor: pointer;
     border-radius: 4px;
-    
+
 }
 
 
@@ -65,6 +66,7 @@ button {
 .connectButton:hover {
     background-color: #7edd8a;
 }
+
 .connectButton:active {
     background-color: #7edd8a;
 }
@@ -76,9 +78,10 @@ button {
 .disconnectButton:hover {
     background-color: #f07e76;
 }
+
 .disconnectButton:active {
     background-color: #f07e76;
-    
+
 }
 
 .gray-label {
@@ -89,4 +92,3 @@ button {
 .reading {
     font-size: 1.8rem;
 }
-
