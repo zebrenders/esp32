@@ -29,6 +29,7 @@ body {
     display: grid;
     grid-gap: 2rem;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    box-shadow: 2px 2px 12px 1px rgba(140, 140, 140, .5);
 }
 
 .card {
@@ -44,7 +45,7 @@ button {
     border: none;
     cursor: pointer;
     border-radius: 4px;
-    box-shadow: #0A1128;
+    
 }
 
 
